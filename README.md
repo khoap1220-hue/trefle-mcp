@@ -65,6 +65,6 @@ provenance tool, Streamable HTTP transport, packaging + CI publish, MCP Registry
 
 ## Need a Custom MCP Server for Your API?
 
-Built by **Khoa Phan** ([khoaphan.dev/services](https://khoaphan.dev/services/) • [0%-Fee Escrow on Contra](https://contra.com/s/Ll3krLoU-custom-mcp-server-for-claude-desktop-cursor-and-ai-agents)).
+Built by **Khoa Phan** ([khoaphan.dev/services](https://khoaphan.dev/services/?ref=gh-trefle-mcp) • [0%-Fee Escrow on Contra (\$145)](https://contra.com/s/Ll3krLoU-custom-mcp-server-for-claude-desktop-cursor-and-ai-agents)).
 
 License: MIT
