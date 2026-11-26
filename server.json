@@ -1,0 +1,31 @@
+{
+    "version":  "0.1.0",
+    "repository":  {
+                       "url":  "https://github.com/khoap1220-hue/trefle-mcp",
+                       "source":  "github"
+                   },
+    "packages":  [
+                     {
+                         "transport":  {
+                                           "type":  "stdio"
+                                       },
+                         "environmentVariables":  [
+                                                      {
+                                                          "isSecret":  true,
+                                                          "description":  "Personal API token from trefle.io (sent as Authorization: Bearer header)",
+                                                          "name":  "TREFLE_TOKEN",
+                                                          "format":  "string",
+                                                          "isRequired":  true
+                                                      }
+                                                  ],
+                         "registryType":  "mcpb",
+                         "identifier":  "https://github.com/khoap1220-hue/trefle-mcp/releases/download/v0.1.0/trefle-mcp.mcpb",
+                         "fileSha256":  "dac353cf96b4cbb3c62f49551036d033bc1d43c9bd3572aa5689e9d1a0aba808"
+                     }
+                 ],
+    "title":  "Trefle Botanical API MCP Server",
+    "name":  "io.github.khoap1220-hue/trefle-mcp",
+    "websiteUrl":  "https://khoaphan.dev/services/",
+    "description":  "Read-only MCP server for Trefle botanical API: species search, growing-condition filters \u0026 zones.",
+    "$schema":  "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+}
