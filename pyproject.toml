@@ -1,0 +1,18 @@
+[project]
+name = "trefle-mcp-poc"
+version = "0.1.0"
+description = "Clean-room MCP server PoC for the public Trefle botanical API"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["mcp>=1.10,<2", "httpx>=0.27"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "respx>=0.21"]
+
+[project.scripts]
+trefle-mcp = "trefle_mcp.server:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"
